@@ -1,56 +1,32 @@
-.container{
-    
-    color:rgb(71, 70, 70);
-    font-family:sans-serif;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100vh;
-    
-}
-.paragraph1{
-    line-height: 2.2rem;
-    font-size: 15px;
-    float: right;
-    text-align: justify;
-    margin-right: 5%;
-    margin-top: 8%;
-   
-   }
-.paragraph2{
- line-height: 2.2rem;
- font-size: 15px;
- float: right;
- text-align: justify;
- margin-right: 5%;
+
+ body{
+  background-color: aquamarine;
+
+
+ }
+ .text-center{
+     margin-top: 10%;
+ }
  
-
-}
-.pictureContain{
- text-align: center;
- height: 50vh;
- margin:2% 5% 0% 10%;
-}
-
-.imageRocoto{
+ .size{
+    width: 100px;
+    height: 100px;
+    margin-left: 25vh;
+ }
+ .imageRocoto{
     text-align: center;
-    width: 100%;
-    height: 90%;
-    margin:6% 5% 0% 1%;
-    position: flex;
+    width: 140px;
+    height: 100px;
+   
 }
 
-#date{
-    background-color: rgba(255, 0, 0, 0.788);
-    color: black;
-    width: 50%;
-    height: 5%;
-    border-radius: 5%;
-    border: none;
-    margin-top: 5%;
+.inicio{
+   margin-top: 10%;
+     
 }
-
-.mostrar{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 2%;
+.containerPic{
+    border:1px solid red;
+    height: 100px;
+    margin-left:-8px;
+    margin-top: 30px;
 }
