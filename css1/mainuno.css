@@ -1,11 +1,11 @@
 
  body{
-  background-color: aquamarine;
+    background-color: aquamarine;
 
 
  }
  .text-center{
-     margin-top: 10%;
+    margin-top: 10%;
  }
  
  .size{
@@ -13,11 +13,12 @@
     height: 100px;
     margin-left: 25vh;
  }
- .imageRocoto{
+ .image{
     text-align: center;
-    width: 140px;
-    height: 100px;
-   
+    width:140px;
+    height: 110px;
+    padding: 10px 10px 10px 10px;
+     
 }
 
 .inicio{
@@ -25,8 +26,21 @@
      
 }
 .containerPic{
-    border:1px solid red;
-    height: 100px;
-    margin-left:-8px;
-    margin-top: 30px;
+    border:transparent;
+    margin-left: 18px;
+    
+}
+.inicio2{
+    margin-top: 0px;
+}
+.back{
+    margin-left: 20%;
+    margin-top: 5%;
+    background: black;
+    color: antiquewhite;
+}
+.bck{
+
+
+
 }

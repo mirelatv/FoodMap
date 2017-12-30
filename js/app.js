@@ -9,6 +9,7 @@ $('.initial').fadeOut(5000);
 
 $( "button" ).click(function() {
     $( "p" ).show( "slow" );
+    
   });
 
 /* Bucador*/
@@ -25,3 +26,14 @@ buscador.search($(this).val()).draw();
         $(".content-search").fadeIn(300);
     }
 })
+
+/*mouseOver*/
+
+$(document).ready(function(){
+    $(".image").mouseover(function(){
+        $(".image").css("background", "rgba(0, 0, 0, 0.336)");
+    });
+    $(".image").mouseout(function(){
+        $(".image").css("background","transparent");
+    });
+});
