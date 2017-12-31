@@ -34,13 +34,33 @@
     margin-top: 0px;
 }
 .back{
-    margin-left: 20%;
+    width: 100px;
+    margin-left: 39%;
     margin-top: 5%;
     background: black;
-    color: antiquewhite;
+    color:aqua;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
 }
-.bck{
-
-
+.maps{
+    width: 80%;
+    height: 40%;
+    position: flex;
+    margin-left: 10%;
 
 }
+ .call {
+    background: black;
+    color:aqua;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    background: black;
+    color:aqua;
+    border-radius: 5px;
+    border: none;
+}
+
+ 
