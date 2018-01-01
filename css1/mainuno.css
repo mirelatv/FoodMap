@@ -6,13 +6,25 @@
  }
  .text-center{
     margin-top: 10%;
+    font-size: 120%;
+    font-family: sans-serif;
  }
  
  .size{
     width: 100px;
     height: 100px;
-    margin-left: 25vh;
+    margin-left: 23vh;
  }
+
+ .size:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+
+    
  .image{
     text-align: center;
     width:140px;
@@ -20,6 +32,7 @@
     padding: 10px 10px 10px 10px;
      
 }
+
 
 .inicio{
    margin-top: 10%;
