@@ -16,19 +16,11 @@
     /* Bucador*/
       
     var buscador = $('#table').DataTable();
-    
-       $('#input-search').keyup(function(){
-        
-    buscador.search($(this).val()).draw();
-        
-        if ($('#input-search').val() == ""){
-            $('.content-search').fadeOut(300);
-        }else{
-            $('.content-search').fadeIn(300);
-        }
-    })
-  
-    
+    $('#input-search').click(function(){
+        $('.content-search').show();
+
+    });
+             
     /*mouseOver*/
             
        
@@ -325,4 +317,3 @@
              $('.direction').text('AV. REPUBLICA DE PANAMA 6553, Santiago De Surco, Lima, Peru');
              $('.telephone').text('998 237 237')
           });
-    
